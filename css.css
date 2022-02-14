@@ -1,0 +1,109 @@
+*
+{
+  box-sizing: border-box;
+}
+
+
+body
+{
+  width: 100%;
+  margin: 0;
+}
+
+
+.menu
+{
+  display: flex;
+  height: 15vh;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #1e272e;
+}
+
+.container
+{
+  display: flex;
+  justify-content: space-around;
+  height: 77vh;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  background-color: #b2bec3;
+}
+
+.image
+{
+  width: 50%;
+  overflow: hidden;
+}
+
+.texte
+{
+  width: 50%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ss
+{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.texteContainer
+{
+  width: 70%;
+  box-shadow: 3px 3px 5px black;
+  padding: 32px;
+  background-color: white;
+}
+
+#pied-de-page
+{
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e272e;
+  color: white;
+}
+
+ul
+{
+  list-style: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.logo
+{
+  width: 50px;
+  margin: 20px;
+}
+
+.lienPlanete
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#saturne
+{
+  width: 100px;
+  margin-right: 0 !important;
+}
+
+.imageTemplate
+{
+  width: 70%;
+}
