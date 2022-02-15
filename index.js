@@ -4,9 +4,14 @@ const acceuilTemplate = container.innerHTML
 
 const planetes = document.getElementsByClassName("lienPlanete")
 
+const menuMobile = document.querySelector(".enfantBoutton")
 
-console.log(planetes)
+const boutton = document.querySelector(".boutton")
 
+const wesh = document.querySelector(".wesh")
+
+console.log(menuMobile)
+console.log(boutton)
 
 const Terre = `
 <div class="image">
@@ -92,7 +97,6 @@ const Venus = `
 </div>
 `
 
-console.log (container)
 
 const contentChange = (planete) => {
   container.innerHTML = planete
@@ -129,3 +133,14 @@ for (let  planete of planetes){
     
   })
 }
+
+wesh.addEventListener("click", function(){
+
+  if(menuMobile.style.display == "inline"){
+    menuMobile.style.display = "none"
+  }
+
+  else{
+    menuMobile.style.display = "inline"
+  }
+})
